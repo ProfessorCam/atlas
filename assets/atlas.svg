@@ -1,0 +1,34 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" width="256" height="256">
+  <!-- Background -->
+  <rect width="256" height="256" rx="32" fill="#12121a"/>
+
+  <!-- Treemap blocks -->
+  <!-- Large top-left: directory blue -->
+  <rect x="12" y="12" width="110" height="110" rx="4" fill="#345882"/>
+  <!-- Top-right: green (images) -->
+  <rect x="130" y="12" width="114" height="60" rx="4" fill="#2d8246"/>
+  <!-- Mid-right top: purple (video) -->
+  <rect x="130" y="80" width="60" height="42" rx="4" fill="#783296"/>
+  <!-- Mid-right bottom: orange (archive) -->
+  <rect x="198" y="80" width="46" height="42" rx="4" fill="#b45a1e"/>
+  <!-- Bottom-left: teal (document) -->
+  <rect x="12" y="130" width="72" height="114" rx="4" fill="#1e8c8c"/>
+  <!-- Bottom-mid: golden (code) -->
+  <rect x="92" y="130" width="70" height="50" rx="4" fill="#a08c14"/>
+  <!-- Bottom-mid-right: red (executable) -->
+  <rect x="92" y="188" width="70" height="56" rx="4" fill="#a02828"/>
+  <!-- Bottom-right: slate (data) -->
+  <rect x="170" y="130" width="74" height="114" rx="4" fill="#466e96"/>
+
+  <!-- Subtle grid lines -->
+  <line x1="122" y1="12" x2="122" y2="244" stroke="#12121a" stroke-width="6"/>
+  <line x1="12" y1="122" x2="122" y2="122" stroke="#12121a" stroke-width="6"/>
+  <line x1="130" y1="72" x2="244" y2="72" stroke="#12121a" stroke-width="6"/>
+  <line x1="162" y1="122" x2="244" y2="122" stroke="#12121a" stroke-width="6"/>
+  <line x1="84" y1="130" x2="84" y2="244" stroke="#12121a" stroke-width="6"/>
+  <line x1="162" y1="130" x2="162" y2="244" stroke="#12121a" stroke-width="6"/>
+  <line x1="84" y1="180" x2="162" y2="180" stroke="#12121a" stroke-width="6"/>
+
+  <!-- Magnifier overlay -->
+  <circle cx="172" cy="88" r="0" fill="none"/>
+</svg>
