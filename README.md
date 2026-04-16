@@ -1,6 +1,6 @@
 # Atlas
 <img src="./assets/atlas.png" width="20%" alt="Atlas">
-A native Linux disk space analyser with an interactive treemap visualisation — built in Rust.
+A native Linux disk space analyser with an interactive treemap visualization built in Rust.
 
 Atlas shows you exactly where your disk space is going. Directories and files are represented as proportionally sized, colour-coded rectangles. Click any directory to zoom in; right-click to delete directly.
 
