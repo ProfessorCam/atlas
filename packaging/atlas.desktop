@@ -1,0 +1,14 @@
+[Desktop Entry]
+Version=1.0
+Type=Application
+Name=Atlas
+GenericName=Disk Space Analyser
+Comment=Visualise disk usage with an interactive treemap
+Exec=atlas
+Icon=atlas
+Terminal=false
+Categories=Utility;System;
+Keywords=disk;space;treemap;filesystem;analyser;storage;
+StartupNotify=true
+StartupWMClass=atlas
+MimeType=inode/directory;
